@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <link rel="icon" type="image/png" href="/static/EdiNapierLogoRed.png">
+    {% from "_html_helpers.html" import page_header %}
+    {{ page_header(user_id, "Login") }}
+
+    {% from "_formhelpers.html" import flash %}
+    {{ flash() }}
+    <div class="row">
+        <div class="col-6 col-m-6">
+            <div class="card">
+                <br>
+                <form action="" class="form-inline" method="post" autocomplete="off">
+                    <input type="text" class="form-control" placeholder = "Username" name="username" value="{{request.form.username}}">
+                    <input type="password" class="form-control" placeholder = "Password" name="password" value="{{request.form.phash}}">
+                    <input class="btn btn-default" type="submit" value="Login">
+        <a href="https://soc09109.napier.ac.uk/resetpassword">[Forgot password]</a>
+                </form>
+                <p>{{ error }}</p>
+            </div>
+        </div>
+    </div>
+
+{% from "_html_helpers.html" import bottomnav %}
+{{ bottomnav() }}
