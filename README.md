@@ -10,4 +10,4 @@ Important files within the repository.
   2) One change was made in the 'login.html' file to prevent password autocomplete in browser occuring enabling this issue from happening.
   3) The file 'Security-Issues' discuss the errors that were discovered through testing using an application called OWASP ZAP Zed Attack 
   Proxy which is a pentesting application.
-  4) The file 'Implementation-Of-Security-Issues-Discovered' show the configuration code to fix each error that existed.
+  4) The file 'Implementation-To-Resolve-Security-Issues' show the configuration code to fix each error that existed.
