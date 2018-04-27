@@ -5,6 +5,6 @@ for users that browse and navigate the website as well as additional files that 
 within this repository.
 
 Important files within the repository.
-  1) mainapachefile is the file where the most changes were made. In the file is the entire apache configuration file and changes were 
+  1) 'apache2.conf' is the file where the most changes were made. In the file is the entire apache configuration file and changes were 
   made in here to resolve security flaws. The code in the file enables the website to be as secure as possible.
-  2) One change was made in the login.html file to prevent password autocomplete in browser occuring enabling this issue from happening
+  2) One change was made in the 'login.html' file to prevent password autocomplete in browser occuring enabling this issue from happening.
